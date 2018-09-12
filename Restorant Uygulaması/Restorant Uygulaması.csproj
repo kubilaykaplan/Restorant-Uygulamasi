@@ -46,14 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Anaform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Anaform.Designer.cs">
+      <DependentUpon>Anaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MasaDetayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasaDetayForm.Designer.cs">
+      <DependentUpon>MasaDetayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasaListeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasaListeForm.Designer.cs">
+      <DependentUpon>MasaListeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonForm.Designer.cs">
+      <DependentUpon>SalonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiparisForm.Designer.cs">
+      <DependentUpon>SiparisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun.cs" />
+    <Compile Include="UrunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunForm.Designer.cs">
+      <DependentUpon>UrunForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anaform.resx">
+      <DependentUpon>Anaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasaDetayForm.resx">
+      <DependentUpon>MasaDetayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasaListeForm.resx">
+      <DependentUpon>MasaListeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +109,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SalonForm.resx">
+      <DependentUpon>SalonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiparisForm.resx">
+      <DependentUpon>SiparisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunForm.resx">
+      <DependentUpon>UrunForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
